@@ -92,7 +92,7 @@ class ExcuteCryptoNode():
     def INPUT_TYPES(s):
         return {
             "required": { 
-                "crypto_file_path": ("STRING", {"default": folder_paths.output_directory}),         
+                "dat_path": ("STRING", {"default": folder_paths.output_directory}),         
             },
             "optional": {
                 "input_anything" : ("*",),
